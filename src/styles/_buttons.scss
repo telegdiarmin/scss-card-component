@@ -1,0 +1,23 @@
+.button {
+    display: block;
+    margin-left: auto;
+    padding: 0.5rem;
+    width: fit-content;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: $font-paragraph;
+    font-size: 1rem;
+  }
+  
+  .button__save {
+    border: 1px solid blue;
+    color: $color-paragraph-black;
+    transition: background 0.2s ease-in;
+    transition: color 0.2s ease-in;
+  }
+  
+  .button__save:hover {
+    background: $gradient-linear-blue;
+    color: white;
+  }
+  

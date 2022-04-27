@@ -1,0 +1,65 @@
+@import "variables", "mixins", "buttons";
+
+body {
+  width: 30%;
+  margin: 2rem auto;
+  background-color: gray;
+}
+
+.card {
+  display: block;
+  height: auto;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 4px 4px 8px rgba($color: black, $alpha: 0.2);
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__header-image {
+  width: 100%;
+}
+
+.card__content {
+  margin: 0;
+  padding: 1rem;
+}
+
+.card__content li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card__title {
+  @include font-title();
+  margin: 0 auto 0.5rem auto;
+}
+
+.card__subtitle {
+  @include font-subtitle();
+  margin: 0;
+}
+
+.card__text {
+  @include font-paragraph();
+}
+
+.bar__base {
+  margin: 0.5rem 0;
+  width: 50%;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 1px 1px 2px rgba($color: black, $alpha: 0.2);
+}
+
+.bar__fill {
+  width: 60%;
+  height: inherit;
+  border-radius: inherit;
+  background: $gradient-linear-blue;
+}

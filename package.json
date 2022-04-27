@@ -1,0 +1,14 @@
+{
+  "name": "scss-kartya-komponens",
+  "version": "1.0.0",
+  "description": "Egy egyszerű SCSS-ben stílusozott kártya komponens gyakorás céljából létrehozva",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx sass ./src/styles/main.scss ./src/styles/output.css"
+  },
+  "author": "Telegdi Ármin",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}

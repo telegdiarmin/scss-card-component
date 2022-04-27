@@ -1,0 +1,103 @@
+.button {
+  display: block;
+  margin-left: auto;
+  padding: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: transparent;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.button__save {
+  border: 1px solid blue;
+  color: #3c3c3c;
+  -webkit-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.button__save:hover {
+  background: linear-gradient(45deg, blue, #7d7df5);
+  color: white;
+}
+
+body {
+  width: 30%;
+  margin: 2rem auto;
+  background-color: gray;
+}
+
+.card {
+  display: block;
+  height: auto;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.card__header-image {
+  width: 100%;
+}
+
+.card__content {
+  margin: 0;
+  padding: 1rem;
+}
+
+.card__content li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card__title {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  color: #3c3c3c;
+  margin: 0 auto 0.5rem auto;
+}
+
+.card__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  color: #787878;
+  margin: 0;
+}
+
+.card__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #3c3c3c;
+}
+
+.bar__base {
+  margin: 0.5rem 0;
+  width: 50%;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: #ebebeb;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bar__fill {
+  width: 60%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(45deg, blue, #7d7df5);
+}
+/*# sourceMappingURL=main.css.map */
